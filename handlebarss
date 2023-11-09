@@ -1,0 +1,10 @@
+<!-- confirmation.handlebars -->
+<h1>Question Submitted!</h1>
+<p>Title: {{formData.title}}</p>
+<p>Question Text: {{formData.questionText}}</p>
+<p>Answer: {{formData.answer}}</p>
+<p>Image: <img src="/{{image.filename}}" alt="Uploaded Image"></p>
+<p>URL: {{formData.url}}</p>
+<p>Submit Time: {{formData.submitTime}}</p>
+<p>Subject: {{formData.subject}}</p>
+<p>Topic: {{formData.topic}}</p>
